@@ -1,5 +1,3 @@
-import edu.princeton.cs.algs4.Insertion;
-
 import java.util.Arrays;
 
 public class QuickSort implements Sort {
@@ -13,29 +11,29 @@ public class QuickSort implements Sort {
         int[] right = OutOfPlacesort(Arrays.copyOfRange(unsorted, pivot + 1, unsorted.length));
         return concatenate(left, right, unsorted[pivot]);
     }
-    private int[] concatenate(int[] a, int[] b, int y)
-    {
+
+    private int[] concatenate(int[] a, int[] b, int y) {
         int[] x = new int[a.length + b.length + 1];
         System.arraycopy(a, 0, x, 0, a.length);
         x[a.length] = y;
         System.arraycopy(b, 0, x, a.length + 1, b.length);
         return x;
     }
+
     private int partition(int[] unsorted) {
         int partition = unsorted[0], lessThan = 1, greaterThan = unsorted.length - 1;
-        while(lessThan <= greaterThan) {
-            if(unsorted[lessThan] >= partition && unsorted[greaterThan] <= partition) {
+        while (lessThan <= greaterThan) {
+            if (unsorted[lessThan] >= partition && unsorted[greaterThan] <= partition) {
                 int temp = unsorted[lessThan];
                 unsorted[lessThan] = unsorted[greaterThan];
                 unsorted[greaterThan] = temp;
                 lessThan++;
                 greaterThan--;
-            }
-            else {
-                if(unsorted[lessThan] < partition) {
+            } else {
+                if (unsorted[lessThan] < partition) {
                     lessThan++;
                 }
-                if(unsorted[greaterThan] > partition) {
+                if (unsorted[greaterThan] > partition) {
                     greaterThan--;
                 }
             }
@@ -49,8 +47,9 @@ public class QuickSort implements Sort {
         inPlaceSort(unsorted, 0, unsorted.length - 1);
         return unsorted;
     }
+
     private void inPlaceSort(int[] unsorted, int start, int end) {
-        if(end - start <= 15) {
+        if (end - start <= 15) {
             InsertionSort.inPlaceSort(unsorted, start, end);
             return;
         }
@@ -61,19 +60,18 @@ public class QuickSort implements Sort {
 
     private int partition(int[] unsorted, int start, int end) {
         int partition = unsorted[start], lessThan = start + 1, greaterThan = end;
-        while(lessThan <= greaterThan) {
-            if(unsorted[lessThan] >= partition && unsorted[greaterThan] <= partition) {
+        while (lessThan <= greaterThan) {
+            if (unsorted[lessThan] >= partition && unsorted[greaterThan] <= partition) {
                 int temp = unsorted[lessThan];
                 unsorted[lessThan] = unsorted[greaterThan];
                 unsorted[greaterThan] = temp;
                 lessThan++;
                 greaterThan--;
-            }
-            else {
-                if(unsorted[lessThan] < partition) {
+            } else {
+                if (unsorted[lessThan] < partition) {
                     lessThan++;
                 }
-                if(unsorted[greaterThan] > partition) {
+                if (unsorted[greaterThan] > partition) {
                     greaterThan--;
                 }
             }

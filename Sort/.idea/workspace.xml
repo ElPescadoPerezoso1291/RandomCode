@@ -11,221 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c76d03f-799e-4ade-8a9d-de897a506a0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/GuitarHeroLite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/GuitarPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/TTFAF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/es/datastructur/synthesizer/ArrayRingBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/es/datastructur/synthesizer/BoundedQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/es/datastructur/synthesizer/GuitarHero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/es/datastructur/synthesizer/GuitarString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/es/datastructur/synthesizer/TestArrayRingBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/es/datastructur/synthesizer/TestGuitarString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2/InteractivePercolationVisualizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2/Percolation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2/PercolationFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2/PercolationStats.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2/PercolationVisualizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/greeting57.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/heart25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input1-no.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input10-no.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input2-no.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input50.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input8-dups.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input8-no.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/input8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/jerry47.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/michael61.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/sedgewick60.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/snake1001.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/snake101.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/snake13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/snake501.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/wayne98.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/inputFiles/wayne98b.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/HelloNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/HelloNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/LeapYear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/LeapYear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/Password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/DebugPractice/DebugExercise1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/DebugPractice/DebugExercise2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/DebugPractice/DebugExercise3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/DebugPractice/foods.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/DebugPractice/magic.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Intlist/IntList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/Intlist/IntListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2/magic_word.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2setup/CheckLabConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2setup/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2setup/DogTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab2setup/GetEnvironmentVariables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/Arithmetic/Arithmetic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/Arithmetic/ArithmeticTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/Flik/Flik.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/Flik/HorribleSteve.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/IntDList/BuggyIntDList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/IntDList/BuggyIntDListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/IntDList/IntDList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/magic_word.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab4/self_reflection.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/AList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/AListFloorSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/Lab5FloorSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/RedBlackFloorSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/SLList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/StopwatchDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/TestRedBlackFloorSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/TimeAList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab5/TimeSLList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6/UnionFind.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab6/testUnion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/BSTMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/InsertInOrderSpeedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/InsertRandomSpeedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/Map61B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/StringUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/TestBSTMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/TestBSTMapExtra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/ULLMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab7/speedTestResults.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library-fa20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/Body.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/In.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/NBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/StdAudio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/StdDraw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/StdOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestBodyConstructor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestCalcDistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestCalcForceExertedBy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestCalcForceExertedByXY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestCalcNetForceExertedByXY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestReadBodies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestReadRadius.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/TestUpdate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/audio/2001.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/3body.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/8star-rotation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/antimatter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/armageddon.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/atom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/awesome.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/binary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/binaryStars.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/bowling.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/chaosblossom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/dance10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/entropy-universe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/fourellipses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/galaxy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/hypnosis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/illusion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/its-a-trap.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/kaleidoscope.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/kevin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/massive-squirrel-battle.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/planets-elliptical.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/planets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/planetsparty.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/pluto.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/quad-stars.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/renegade.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/sbh2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/sbh3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/soap-opera.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/spiral.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/suninterference.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/twin-binaries.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/uniform100.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/uniform3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/data/uniform8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/BasicInDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/BasicInDemo_input_file.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/In.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/InDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/StdDraw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/StdDrawDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/StdOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/StdRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/advice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/examples/national_salt_production.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/acorn-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/acorn3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/asteroid.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/ball.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/blackhole.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/death_star.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/earth.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/electron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/endor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/goodbye.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/imback.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/its_a_trap.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/jupiter.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/kevin.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/mars.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/mercury.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/neptune.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/ninjasquirrel_red.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/nucleus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/pin.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/pluto.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/rebel_cruiser.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/saturn.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/squirrel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/star.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/star_destroyer.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/starfield.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/sun.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/uranus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj0/images/venus.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/ArrayDeque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/ArrayDequeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/Deque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/LinkedListDeque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/LinkedListDequeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/RotateList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1a/VengefulList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/ArrayDeque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/CharacterComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/Deque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/LinkedListDeque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/OffByN.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/OffByOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/Palindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/PalindromeFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/TestOffByOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1b/TestPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1gold/ArrayDequeSolution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1gold/AssertEqualsStringDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1gold/StudentArrayDeque.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1gold/StudentArrayDequeLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj1gold/TestArrayDequeGold.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/ArrayHeapMinPQTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/ExtrinsicMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/KDTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/KDTreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/NaiveMinPQ.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/NaivePointSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/PointSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/PrintHeapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proj2ab/bearmaps/TimingTestDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../snaps-fa20-s165" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javalib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/LSDRadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/LSDRadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/MSDRadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/MSDRadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/SortingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/SortingTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/src/times.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/src/times.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/MinPQ/ArrayHeapMinPQ$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/MinPQ/ArrayHeapMinPQ$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/MinPQ/ArrayHeapMinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/MinPQ/ArrayHeapMinPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/MinPQ/ExtrinsicMinPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/MinPQ/ExtrinsicMinPQ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/SortingTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/SortingTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Sort/times.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sort/times.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,12 +56,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data Types I've Made" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="JUnit.SortingTests.timeSorts">
+    <configuration name="SortingTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingTests" />
+      <module name="Sort" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortingTests.testCorrectness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sort" />
       <option name="PACKAGE_NAME" value="" />
@@ -280,6 +94,7 @@
       <list>
         <item itemvalue="JUnit.SortingTests.timeSorts" />
         <item itemvalue="JUnit.SortingTests.testCorrectness" />
+        <item itemvalue="Application.SortingTests" />
       </list>
     </recent_temporary>
   </component>
@@ -307,62 +122,107 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="934" y="211" key="#com.intellij.ide.util.MemberChooser" timestamp="1604481578385">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state x="1006" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1606036688906">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="934" y="211" key="#com.intellij.ide.util.MemberChooser/0.0.1504.1003@0.0.1504.1003" timestamp="1604481578385" />
-    <state x="693" y="246" key="FileChooserDialogImpl" timestamp="1604531844684">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state x="1006" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1620.1080@0.0.1620.1080" timestamp="1606036688906" />
+    <state x="575" y="425" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606029079079">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="575" y="425" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1620.1080@0.0.1620.1080" timestamp="1606029079079" />
+    <state x="746" y="265" key="FileChooserDialogImpl" timestamp="1606080914250">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="693" y="246" key="FileChooserDialogImpl/0.0.1504.1003@0.0.1504.1003" timestamp="1604531844684" />
-    <state width="1461" height="332" key="GridCell.Tab.0.bottom" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state x="746" y="265" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1606080914250" />
+    <state width="1578" height="647" key="GridCell.Tab.0.bottom" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.0.bottom/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.0.center" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.0.center" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.0.center/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.0.left" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.0.left" timestamp="1606036649417">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.0.left/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.0.right" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649417" />
+    <state width="1578" height="647" key="GridCell.Tab.0.right" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.0.right/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.1.bottom" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.1.bottom" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.1.bottom/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.1.center" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.1.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.1.center" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.1.center/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.1.left" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.1.center/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.1.left" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.1.left/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state width="1461" height="332" key="GridCell.Tab.1.right" timestamp="1604531849179">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.1.left/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.1.right" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state width="1461" height="332" key="GridCell.Tab.1.right/0.0.1504.1003@0.0.1504.1003" timestamp="1604531849179" />
-    <state x="466" y="79" key="SettingsEditor" timestamp="1604481459787">
-      <screen x="0" y="0" width="1504" height="1003" />
+    <state width="1578" height="647" key="GridCell.Tab.1.right/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.2.bottom" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="647" key="GridCell.Tab.2.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.2.center" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="647" key="GridCell.Tab.2.center/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.2.left" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="647" key="GridCell.Tab.2.left/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state width="1578" height="647" key="GridCell.Tab.2.right" timestamp="1606036649418">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="647" key="GridCell.Tab.2.right/0.0.1620.1080@0.0.1620.1080" timestamp="1606036649418" />
+    <state x="421" y="141" key="SettingsEditor" timestamp="1606028812875">
+      <screen x="0" y="0" width="1620" height="1080" />
     </state>
     <state x="466" y="79" key="SettingsEditor/0.0.1504.1003@0.0.1504.1003" timestamp="1604481459787" />
+    <state x="421" y="141" key="SettingsEditor/0.0.1620.1080@0.0.1620.1080" timestamp="1606028812875" />
     <state x="203" y="122" key="new project wizard" timestamp="1604771386370">
       <screen x="0" y="0" width="1504" height="1003" />
     </state>
     <state x="203" y="122" key="new project wizard/0.0.1504.1003@0.0.1504.1003" timestamp="1604771386370" />
+    <state x="774" y="314" width="609" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606027620556">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="774" y="314" width="609" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1606027620556" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Sort/src/SortingTests.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="1" />
+          <line>62</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sort/src/MSDRadixSort.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sort/src/SortingTests.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

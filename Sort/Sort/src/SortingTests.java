@@ -1,14 +1,10 @@
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.Quick;
 import edu.princeton.cs.algs4.Stopwatch;
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class SortingTests {
     private static void printTimingTable(List<Integer> Ns, List<Double> times, List<Integer> opCounts) {
@@ -25,9 +21,10 @@ public class SortingTests {
     @Test
     public void timeSorts()
     {
-        //printSort(new InsertionSort());
-        //printSort(new SelectionSort());
-        //printSort(new HeapSort());
+        printSort(new BubbleSort());
+        printSort(new SelectionSort());
+        printSort(new InsertionSort());
+        printSort(new HeapSort());
         printSort(new MergeSort());
         printSort(new QuickSort());
         printSort(new CountingSort());
@@ -53,8 +50,8 @@ public class SortingTests {
 
     @Test
     public void testCorrectness() {
-        Sort sorter = new InsertionSort(); //interchangable sorter
-        int N = 1000;
+        Sort sorter = new BubbleSort(); //interchangable sorter
+        int N = 10;
         for (int i = 0; i < N; i++) {
             int[] x = new int[N];
             int[] y = new int[N];
@@ -71,9 +68,15 @@ public class SortingTests {
         }
     }
     public static int digit(int d, int n) {
-        return n / (int) (Math.pow(10, (int) (Math.log(n) / Math.log(Math.pow(10, d)))));
+        if(Math.pow(10, d) > n) {
+            return 0;
+        }
+        return (n / (int) Math.pow(10, (int) (Math.log10(n)) - d)) % 10;
     }
     public static void main(String[] args) {
-        System.out.println(digit(5, 320101));
+
+        for(int i = 0; i < 9; i++) {
+            System.out.println(digit(i, 287137341));
+        }
     }
 }
