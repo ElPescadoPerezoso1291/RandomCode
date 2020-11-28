@@ -1,0 +1,115 @@
+@Source: http://www.kartikkapur.com/documents/DataStructureDesign.pdf
+
+KartikLand, the Happiest Place in the World.
+
+Problem:
+You are a ticket ripper at the happiest place in the world, Kartikland. Each family in your land can rip
+exactly one ticket, no more no less. Additionally, you want to rip the tickets of younger people before older
+ones, after all, Kartikland is a place for young ins to drag their parents to spend lots of money. Families
+may attempt to get around this by sending family members with tickets, but it is up to you, the brave ticket
+ripper to prevent them from getting more than one ripped ticket. You are provided the familial connections
+of all families in whatever representation you would like. You should be able to rip the tickets of all people
+in O(N) time where N is the number of people in line to get their tickets ripped.
+
+Answer:
+Let the line of people who want to have their tickets ripped be represented as a Hashmap
+of the families, where the key is the current person, and the value is the ArrayList of family
+members, represented as the letter H. When the first person in line is found, retrieve the family
+from H, and find the minimum value family member in respect to age, and rip their ticket. This
+will take O(N) time in the worst case (if that one member is related to everyone in line). Now
+create a Hashset represented as the letter S, and add the familial connection to S, presumably the
+last name of the family. If the current person in line is already contained in S, then skip over the
+person. Otherwise, grab from H and find the minimum of the family, and add up the family
+connection to S. This will take O(N) time. When we find the minimum of each family, we essentially
+skip over other family members in the line, so if finding the minimum takes O(N) time, then
+we no longer have to look at every other family member, and skip over them, since their family
+connection is already in S.
+
+Sweet Tooth
+
+Problem:
+Pretend that you are the owner of a Sweet Company. Your company makes three sweets- popcorn, candy,
+and ice cream. In addition to this, each Sweet Category has their own sub categories. For example, you
+can have Vanilla Ice Cream, Chocolate Ice Cream, Banana Ice Cream etc. Each Sweet has a total of N
+sub categories. You know how much money each sub category will yield- assume that the money each sub
+category will yield is unique.
+
+As an owner trying to make a profit, you want to get lots of money; however, you can only make one
+item a day, and you only have M days (where M< N). Your strategy is to pick the sub category of food that
+will provide the most money on and then create it that day. You have 2 restrictions though.
+
+• On any 2 consecutive days, you cannot pick items that come from the same Sweet Category. For
+example, you cannot create an item from Ice Cream one day and the next day pick another item from
+ice cream. This is enforced until the other 2 Sweet Categories are depleted.
+
+• Once you make a subcategory, you cannot make it again. For example, if you make Banana Ice Cream
+one day, you can never again make Banana Ice Cream.
+
+Utilize Data Structures that we have discussed earlier to create an algorithm that will allow you to pick the
+most profit while following the above constraints. You must take no longer than Mlog(N) to pick all the sub
+categories of Sweets you will make. Hint: You cannot simply put everything inside 1 Priority Queue.
+
+Answer:
+Create 3 arrays of size N to represent the 3 categories of sweets. We will denote these arrays as
+P (popcorn), C (candy), I (ice cream). Add all subcategories in their respective arrays. For example,
+put vanilla popcorn in the array P. This will take O(N) time. next, use bottom up max-heapification on P,
+C, and I. This will also take O(N) time. Now create 3 different variables to represent the current maximum
+of P, C, and I, and three boolean variables to represent if a category has been used on the day before.
+
+On the first day, retrieve the maximum from P, C, and I, and place them into their respective max variables, and
+renew the heap property in P, C, and I. retrieving the maximum will take O(1) time as this is a heap property, and
+renewing the heap property in P, C, and I will take O(logN) time. Next, use the maximum from the 3 max variables, and
+set its respective boolean value to false, and create said max subcategory. On the next day, retrieve the maximum from
+the false value, and replace it. Next, find the largest max value among the subcategories that are true. set the
+current maximum subcategory to false, and set the maximum subcategory before to true. repeat this process until M days
+have been reached.
+
+On the 0th day, it takes O(N) time to intialize all data structures. On the following days, it takes logN time each day
+to renew the heap property in each heap taking O(logN) time each day. Therefore, the total overall runtime will take
+O(MlogN + N) runtime.
+
+
+Min-nie Mouse and Max-xie Mouse
+
+Problem:
+Use or modify a data structure or set of data structures to do the following operations in the provided time:
+• insert: O(log(N))
+• getSmallest: O(1)
+• getLargest: O(1)
+• deleteSmallest: O(log(N))
+• deleteLargest: O(log(N))
+
+Answer:
+Create a binary search tree and denote this tree as B. Create pointers to the smallest and largest values of
+B. Insertion into B will take O(logN) time as this is a Binary Search Tree property. If the object we inserted
+into B is larger than the largest pointer, or smaller than the smallest pointer, change the pointers respectively.
+getSmallest and getLargest will take O(1) time as we have pointers to smallest and largest. For deleteSmallest and
+deleteLargest, we will simply delelte the smallest or largest from B, taking O(logN) time. We can then set the new
+largest/smallest to it's respective values, which will also take O(logN) time.
+
+
+Oh Hi Mark
+
+Problem:
+Imagine you are implementing a basic social media. You want to be able to check if 2 people are friends
+in constant time. You also want to be able to see if you can see if 2 people have at least 1 mutual friend
+in O(N) time where N is the total amount of people on the social media. Find an efficient solution to this
+problem
+
+Answer:
+Create a dictionary of people on the social media page, where the keys are Person Objects,
+and the Values are sets of People Objects we will denote as D. As an example, let person X and person Y
+be friends on the social media page. When they friend eachother, we will grab Person X
+from D, and add Person Y to Person X's set. The same will be done for Person
+Y's set, but Person X will be added instead. This will take O(1) time.
+
+to see if two people are friends, say Person X and Person Y, we can simply grab both X and Y
+from D, and see if Person Y's set contains Person X, and Person X's set contains
+Person Y. If this is true, then they are friends on the social media page. This will take
+O(1) time.
+
+To see if two people have a mutual friend, say Person X and Person Y, we can grab both
+sets of friends from D, and iterate through Person X's set. For each
+friend in Person X's set, if Person Y's set contains said friend, return True. Otherwise, if no
+such friend exists in person Y's set, return false. This will take O(N) time in the worst case(Person X
+is friends with everyone).
