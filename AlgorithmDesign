@@ -64,7 +64,7 @@ the false value, and replace it. Next, find the largest max value among the subc
 current maximum subcategory to false, and set the maximum subcategory before to true. repeat this process until M days
 have been reached.
 
-On the 0th day, it takes O(N) time to intialize all data structures. On the following days, it takes logN time each day
+On the 0th day, it takes O(N) time to initialize all data structures. On the following days, it takes logN time each day
 to renew the heap property in each heap taking O(logN) time each day. Therefore, the total overall runtime will take
 O(MlogN + N) runtime.
 
@@ -84,7 +84,7 @@ Create a binary search tree and denote this tree as B. Create pointers to the sm
 B. Insertion into B will take O(logN) time as this is a Binary Search Tree property. If the object we inserted
 into B is larger than the largest pointer, or smaller than the smallest pointer, change the pointers respectively.
 getSmallest and getLargest will take O(1) time as we have pointers to smallest and largest. For deleteSmallest and
-deleteLargest, we will simply delelte the smallest or largest from B, taking O(logN) time. We can then set the new
+deleteLargest, we will simply delete the smallest or largest from B, taking O(logN) time. We can then set the new
 largest/smallest to it's respective values, which will also take O(logN) time.
 
 
@@ -109,7 +109,63 @@ Person Y. If this is true, then they are friends on the social media page. This 
 O(1) time.
 
 To see if two people have a mutual friend, say Person X and Person Y, we can grab both
-sets of friends from D, and iterate through Person X's set. For each
-friend in Person X's set, if Person Y's set contains said friend, return True. Otherwise, if no
-such friend exists in person Y's set, return false. This will take O(N) time in the worst case(Person X
-is friends with everyone).
+sets of friends from D, and iterate through Person X's set. For each friend in Person X's set,
+if Person Y's set contains said friend, return True. Otherwise, if no such friend exists
+in person Y's set, return false. This will take O(N) time in the worst case(Person X is
+friends with everyone).
+
+
+Colise-Yum
+
+Problem:
+You are the rich Roman Emperor Jewelius Caesar. You want to build arenas (possibly more than one) so
+your subjects can watch gladiator duels and eat wild boars.
+
+• You have V locations where you can build arenas and it costs vi denarius’s to build an arena in the
+ith location.
+
+• Additionally, any location that does not have an arena must have a path to an arena. You are provided
+a set of roads, denoted by E, that you can build between any 2 locations i and j, along with their cost
+denoted by eij.
+
+Find or modify an algorithm that will minimize the amount of denarius’s your kingdom will spend while still
+fulfilling your constraints.
+
+Answer:
+For this algorithm, we can consider using a minimum spanning tree, where vertices will be arenas, and edge
+weights will be the cost to build arena Va, arena Vb, and the cost to build between Va and Vb. We want to
+consider the cheapest methods, thus, when we consider distance from the tree; this is the cost of building
+the said path.
+
+Next, we must construct each edge. Because there are V possible edges for each V, the cost of constructing all
+edges will cost O(V^2). Next, we will sort all edges similar to Kruskal's algorithm. The most optimal comparison
+sort we can use takes O(NlogN) time, thus, using a comparison sort, sorting will take O(V^2 * log(V^2)) time, or
+O(V^2logV) time. However, if we consider radix sort, assuming denarius is some sort of number currency, then
+sorting will take O(V^2) time. Because kruskal's algorithm requires a disjoint set however, the runtime would still
+take O(V^2logV) time.
+
+After we create the Minimum Spanning Tree from kruskal's algorithm, we have created the optimal paths of all
+arenas.
+
+
+Land Lubber? Sea Lubber? Air Lubber? Just Lubber
+
+Problem:
+You are an avid traveler who wants to travel between the 2 cities in your country which consists of V cities.
+To go between these cities you have decided that you can narrow down your modes of transportation to
+dinghy sailing, gliding, and unicycling. For every city in the country, you are given a list of cities that you
+can get to- this list remains constant regardless of which mode of transportation you pick. The set of all
+sailing costs is labeled as Es, the set of all gliding costs is given ans Eg, and the cost of all unicycling costs
+is the set Eu.
+Sadly, you get sea/air/landsick quite frequently so you cannot take the same mode of transportation
+consecutively- in other words you cannot go into city i with unicycling and leave unicycling. Find an
+algorithm that computes the fastest route from city i to city j with your constraints.
+
+Answer:
+For this algorithm, consider using dijkstra's algorithm to find the shortest paths tree of all cities
+from city i to city j.
+
+First, create a Node object that will contain three boolean values on whether you can use a mode of transportation.
+At the start node, where you are first located, have all booleans be set to True. Dijkstra's algorithm requires a graph; we
+will denote the graph that is currently being built as graph G.
+
