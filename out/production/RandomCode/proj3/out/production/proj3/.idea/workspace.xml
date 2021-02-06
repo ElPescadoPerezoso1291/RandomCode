@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b427a5f8-222d-4943-bb44-ceea2b3501d7" name="Default Changelist" comment="Finished some debugging">
+      <change beforePath="$PROJECT_DIR$/../library-fa20" beforeDir="false" afterPath="$PROJECT_DIR$/../library-fa20" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/Core/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/Core/Dungeon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/Core/Enemy/EnemyAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/Core/Enemy/EnemyAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/Core/Enemy/EnemyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/Core/Enemy/EnemyGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/Core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/Core/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/byow/TileEngine/TERenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/byow/TileEngine/TERenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/byow/Core/Dungeon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/byow/Core/Dungeon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/byow/Core/Enemy/EnemyAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/byow/Core/Enemy/EnemyAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/byow/Core/Enemy/EnemyGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/byow/Core/Enemy/EnemyGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/byow/Core/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/byow/Core/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/byow/Core/Sprites/EnemyType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/byow/Core/Sprites/EnemyType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proj3/byow/TileEngine/TERenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proj3/byow/TileEngine/TERenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snaps-fa20-s165" beforeDir="false" afterPath="$PROJECT_DIR$/../snaps-fa20-s165" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kAtVkJP9SNAIRaj8cX5FR1BhWn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../proj3" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Engine">
+    <configuration name="DemoInputSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="byow.InputDemo.DemoInputSource" />
+      <module name="proj3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="byow.InputDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Engine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="byow.Core.Engine" />
+      <module name="proj3" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;S20173N&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="byow.Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="byow.Core.Main" />
+      <module name="proj3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="byow.Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="byow.lab13.MemoryGame" />
+      <module name="proj3" />
+      <option name="PROGRAM_PARAMETERS" value="344652" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="byow.lab13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DungeonTest.TestWorking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="byow.Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="byow.Core" />
+      <option name="MAIN_CLASS_NAME" value="byow.Core.DungeonTest" />
+      <option name="METHOD_NAME" value="TestWorking" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Engine" />
+      <item itemvalue="Application.DemoInputSource" />
+      <item itemvalue="Application.MemoryGame" />
+      <item itemvalue="JUnit.DungeonTest.TestWorking" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Engine" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MemoryGame" />
+        <item itemvalue="Application.DemoInputSource" />
+        <item itemvalue="JUnit.DungeonTest.TestWorking" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b427a5f8-222d-4943-bb44-ceea2b3501d7" name="Default Changelist" comment="" />
+      <created>1605155249332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605155249332</updated>
+    </task>
+    <task id="LOCAL-00001" summary="LAB 11 BB">
+      <created>1605217383474</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605217383474</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished some debugging">
+      <created>1605315375963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605315375963</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished some debugging">
+      <created>1605315969683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605315969683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finished some debugging">
+      <created>1605346533813</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605346533813</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finished some debugging">
+      <created>1605346790549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605346790549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LAB 11 BB" />
+    <MESSAGE value="Finished some debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished some debugging" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605410914281">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="444" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1605410914281" />
+    <state x="594" y="435" width="431" height="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605586967675">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="594" y="435" width="431" height="215" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1620.1080@0.0.1620.1080" timestamp="1605586967675" />
+    <state x="156" y="91" key="DiffContextDialog" timestamp="1605315388129">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="156" y="91" key="DiffContextDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1605315388129" />
+    <state x="807" y="293" key="FileChooserDialogImpl" timestamp="1605674449727">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="807" y="293" key="FileChooserDialogImpl/0.0.1620.1080@0.0.1620.1080" timestamp="1605674449727" />
+    <state width="1578" height="363" key="GridCell.Tab.0.bottom" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.0.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.0.center" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.0.center/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.0.left" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.0.left/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.0.right" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.0.right/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.1.bottom" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.1.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.1.center" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.1.center/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.1.left" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.1.left/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.1.right" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.1.right/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.2.bottom" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.2.bottom/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.2.center" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.2.center/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.2.left" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.2.left/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state width="1578" height="363" key="GridCell.Tab.2.right" timestamp="1605674450650">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state width="1578" height="363" key="GridCell.Tab.2.right/0.0.1620.1080@0.0.1620.1080" timestamp="1605674450650" />
+    <state x="572" y="243" key="RollbackChangesDialog" timestamp="1605332391896">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="572" y="243" key="RollbackChangesDialog/0.0.1620.1080@0.0.1620.1080" timestamp="1605332391896" />
+    <state x="584" y="126" key="SettingsEditor" timestamp="1605286235099">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="584" y="126" key="SettingsEditor/0.0.1620.1080@0.0.1620.1080" timestamp="1605286235099" />
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2" timestamp="1605346794284">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="403" y="273" key="Vcs.Push.Dialog.v2/0.0.1620.1080@0.0.1620.1080" timestamp="1605346794284" />
+    <state x="42" y="574" width="1590" height="590" key="dock-window-1" timestamp="1605501453753">
+      <screen x="0" y="0" width="1620" height="1080" />
+    </state>
+    <state x="42" y="574" width="1590" height="590" key="dock-window-1/0.0.1620.1080@0.0.1620.1080" timestamp="1605501453753" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/byow/lab12/HexWorld.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="filepath != null &amp;&amp; filepath.equals(&quot;TilePictures/bepis.png&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/byow/TileEngine/TETile.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/byow/InputDemo/DemoInputSource.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/byow/lab13/MemoryGame.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/byow/Core/Engine.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/byow/Core/Main.java</url>
+          <line>8</line>
+          <properties class="byow.Core.Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

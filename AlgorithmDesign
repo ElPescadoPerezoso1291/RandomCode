@@ -25,6 +25,19 @@ skip over other family members in the line, so if finding the minimum takes O(N)
 we no longer have to look at every other family member, and skip over them, since their family
 connection is already in S.
 
+Pseudocode:
+function void ripTicket(HashMap<Person, List<Person>> line) {
+    HashSet<String> familySeen = new HashSet<>();
+    for each person in line {
+        if person not in familySeen {
+            Person smallestAge = min(line.get(person));
+            smallestAge.rip();
+            familySeen.add(smallestAge.family);
+        }
+    }
+}
+
+
 Sweet Tooth
 
 Problem:
@@ -67,6 +80,24 @@ have been reached.
 On the 0th day, it takes O(N) time to initialize all data structures. On the following days, it takes logN time each day
 to renew the heap property in each heap taking O(logN) time each day. Therefore, the total overall runtime will take
 O(MlogN + N) runtime.
+
+Pseudocode:
+function void optimizeSweetsSale(List<Popcorn> P, List<Candy> C, List<IceCream> I, int M) {
+    maxHeapifY(P); maxHeapify(C); maxHeapify(I) //O(N) time
+    boolean popcorn = true, candy = true, iceCream = true;
+    Candy maxP = P.remove(0), maxC = C.remove(0), maxI = I.remove(0);
+    renew(P); renew(C); renew(I);
+    int day = 0;
+    while day <= M {
+        int max = maxIfTrue(maxP, maxC, maxI);
+        create(max);
+        popcorn, candy, iceCream = true;
+        set boolean to false from respective max;
+        reset respective max var that is now false;
+        renewFromMax(max);
+        day += 1;
+    }
+}
 
 
 Min-nie Mouse and Max-xie Mouse
@@ -167,5 +198,103 @@ from city i to city j.
 
 First, create a Node object that will contain three boolean values on whether you can use a mode of transportation.
 At the start node, where you are first located, have all booleans be set to True. Dijkstra's algorithm requires a graph; we
-will denote the graph that is currently being built as graph G.
+will denote the graph that is currently being built as graph G. From the starting point, create edges in G for each true
+travel option toward the next city in the set, where path weights will be the cost to travel with the given travel option.
+When we create a Node to a new city, we will set all boolean values to true except for the mode of transport that was
+used to get to the city. From there repeat this process until the set of cities is exhausted.
 
+Next, we can run dijkstra's algorithm to find the shortest path from the start location to all cities using these modes of
+transportation.
+
+
+National Bongoola Association
+
+Problem:
+You are the coach of a prestigious Bongoola team. Your job as coach is to make sure that, at any given
+time, the best players on your team for each positions are on the field. Bongoola, being a great community
+team sport, invites all people of the community to join. Each player will be assigned a position that they
+can play- there are a total of M positions- and a unique team number. For this problem, we will use N to
+be the total amount of people on your team and P to be the people signed up for a certain position.
+
+You have your starting M players, but as the game progresses, you will need to replace them. You will
+base your replacement of people using the bodacious factor. During the game, only 1 player’s bodacious
+factor goes down, and once they are benched, their bodacious factor doesn’t change. Every Z minutes, 1
+player on the field will have their bodacious factor decrease by some unknown amount and you will be able to
+replace the player if needed. Once the next eligible player’s (a player who plays the same position) bodacious
+factor exceeds the current player, they are considered a better choice. You are guaranteed that only 1 of the
+players at a time will need to be replaced. Finding all the players on your current lineup should take Θ(M)
+time, changing a player’s bodacious factor should take Θ(1) time, replacing a player should take Θ(log(P))
+time, and putting a new player in the current lineup should take Θ(1) time.
+
+Write a detailed description of what data structures you will use to make the operations stated above
+run in the provided time. State any assumptions you need to regarding anything (no you cannot assume
+that everything is done by some magical warlock).
+
+Answer:
+Key points we should notice:
+There are a total of M positions, a total of N teammates, and a total of P people in each position.
+We want the people with the largest bodaciousness in each position.
+Every Z minutes, 1 player on the field will have their bodaciousness lowered.
+
+iterating through the current lineup should take O(M) time
+changing bodacious factor on the field should take O(1) time
+replacing a player should take O(logP) time.
+placing a new player should take O(1) time.
+
+Consider the usage of both a dictionary, in particular a hashmap, and a priority queue, in this case,
+a max heap.
+
+First, we will initialize M priority queues to represent each position on the field. Because
+there are N players, and each position contains P players, we can say that initializing M priority queues
+will take O(NlogP) time, as we use a binary max heap. This will mainly be used for replacing players, as
+finding the next best player at position M will O(logP). Removing the largest player and reinserting the
+replaced player takes O(logP) time.
+
+Second, we will initialize a dictionary with keys as the unique number value of each teammate, and the values
+as the Player object on the team. Iterating through the entire lineup will take O(M) time, as this is simply
+iterating through the hashmap. Changing a player's bodacious factor will take O(1) time, as retrieving the player
+based off player number will take O(1) time. Placing a new player in the lineup will take O(1) time as well, as
+removing from the hashmap takes O(1) time, and adding to the hashmap also takes O(1) time.
+
+
+Future Roaming
+
+Problem:
+You are a croissant delivery boy in the 31st century. You want to deliver your croissants as quickly as
+possible; however, because you lost your client’s addresses and they live all across the galaxy, so you don’t
+want to go door to door. You have the phone numbers of all the people who ordered croissants from
+you, so you will attempt to use this to figure out in where you should go. Each phone number is about
+100000000000000000000000 digits long and you have a total of N clients. You will use the following information
+about telephone numbers to help:
+
+1. The sector code (the leftmost 10 digits) will allow you to figure out which sector a client is in. On
+average, there are a total of √N households you need to deliver to in the sectors.
+
+2. In the 31st century, telephone numbers have a cool feature where the difference between the last 4 digits
+of any 2 telephone numbers in the same sector is equal to the distance between their two corresponding
+households.
+
+3. You know the address of 1 of the houses you need to go in each sector.
+
+You want to go to sectors based off how many of your clients are in them and how close it is . If a sector
+has 5 clients and is 2 Megadistances away, it is more appealing than a sector that has 1 client and is 1
+Megadistance away. If a sector has 6 clients and is 2 Megadistances away, it is less appealing than a sector
+with 9 clients and 3 Megadistances. If a sector has 4 clients and it is 2 Megadistances away, it is considered
+equal to a sector that has 2 clients that is 1 MegaDistance away, at this point, you just pick which one to
+go to randomly . You will deliver to all the households in that sector before going to the next sector. You
+also know how many megadistances are between each sector, and you can assume that you will start at a
+location that is equidistant from all the sectors.
+
+Provide an implementation where figuring out which households are in which sector in Θ(N) time, figuring out the
+distance between a house and all the other houses in a sector, must take, on average, O(N) time, and delivering
+croissants to all the households on average, O(N^(3/2)log N) time.
+
+Assume that the time it takes you to walk 1 Minidistance (inside of a sector) is the same amount of time
+it takes your spaceship to travel one Megadistance (between sectors). Justify why your design works in the
+given time.
+
+Answer:
+Things to consider:
+If there are N sectors to consider, there is only 1 house per sector
+If there is only 1 sector to consider, there are N houses in that sector
+If there is sqrt(N) sectors to consider, there are sqrt(N) houses to consider.6
