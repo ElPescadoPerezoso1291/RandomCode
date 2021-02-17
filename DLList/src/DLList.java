@@ -1,4 +1,6 @@
-public class DLList<T> implements Deque<T> {
+import java.util.Iterator;
+
+public class DLList<T> implements Deque<T>, Iterable<T> {
     private Node sentinel = new Node(null);
     private int size = 0;
 
@@ -64,6 +66,11 @@ public class DLList<T> implements Deque<T> {
         return get(index, sentinel.next);
     }
 
+    @Override
+    public Iterator<T> iterator() {
+        return new DLListIterator();
+    }
+
     private T get(int index, Node curr) {
         if (curr == sentinel) {
             return null;
@@ -88,6 +95,22 @@ public class DLList<T> implements Deque<T> {
             this.item = item;
             this.next = this;
             this.prev = this;
+        }
+    }
+
+    private class DLListIterator implements Iterator<T> {
+        Node current = sentinel;
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public T next() {
+            T returned = current.item;
+            current = current.next;
+            return returned;
         }
     }
 

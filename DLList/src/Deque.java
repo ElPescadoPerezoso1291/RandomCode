@@ -1,4 +1,6 @@
-public interface Deque<T> {
+import java.util.Iterator;
+
+public interface Deque<T> extends Iterable<T> {
     /**
      * adds an item to the front of the list
      * @param item
@@ -46,4 +48,7 @@ public interface Deque<T> {
      * @return the element at the given index. If it does not exist, return null
      */
     T get(int index);
+
+    @Override
+    Iterator<T> iterator();
 }

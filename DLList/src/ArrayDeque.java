@@ -1,14 +1,17 @@
-public class ArrayDeque<T> implements Deque<T> {
+import java.util.Iterator;
+
+public class ArrayDeque<T> implements Deque<T>, Iterable<T> {
 
     private T[] deque = (T[]) new Object[8];
     private int size = 0, FIRSTNext = 3, LASTNext = 4;
 
+    public static void main(String[] args) {
+        int[] x = {1, 2, 3, 4};
+        System.out.println(x);
+    }
     public ArrayDeque() {}
 
     private int indexOverflow(int i) {
-        if(i == 0) {
-            return 0;
-        }
         return Math.floorMod(i, deque.length);
     }
 
@@ -101,5 +104,27 @@ public class ArrayDeque<T> implements Deque<T> {
     @Override
     public T get(int index) {
         return deque[indexOverflow(getFirstIndex() + index)];
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return null;
+    }
+
+    private class ArrayDequeIterator implements Iterator<T>{
+        int length = size();
+        int currentIndex = 0;
+
+        @Override
+        public boolean hasNext() {
+            return currentIndex < length;
+        }
+
+        @Override
+        public T next() {
+            T returned = get(currentIndex);
+            currentIndex++;
+            return returned;
+        }
     }
 }
